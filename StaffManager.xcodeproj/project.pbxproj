@@ -7,21 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C5E81570F30B2E16319BA62 /* Pods_StaffManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B436CA64F3117A9C23565682 /* Pods_StaffManager.framework */; };
+		E12A39072208A403009EA81B /* TableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12A39062208A403009EA81B /* TableViewModel.swift */; };
 		E140DD1C22046D5C00EA1271 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E140DD1B22046D5C00EA1271 /* AppDelegate.swift */; };
-		E140DD1E22046D5C00EA1271 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E140DD1D22046D5C00EA1271 /* ViewController.swift */; };
 		E140DD2122046D5C00EA1271 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E140DD1F22046D5C00EA1271 /* Main.storyboard */; };
 		E140DD2322046D5E00EA1271 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E140DD2222046D5E00EA1271 /* Assets.xcassets */; };
 		E140DD2622046D5E00EA1271 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E140DD2422046D5E00EA1271 /* LaunchScreen.storyboard */; };
+		E140DD3122046ECD00EA1271 /* EditStaffViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E140DD3022046ECD00EA1271 /* EditStaffViewController.swift */; };
+		E140DD3322046F1200EA1271 /* EditStaffViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E140DD3222046F1200EA1271 /* EditStaffViewModel.swift */; };
+		E140DD3922046F9D00EA1271 /* Staff.swift in Sources */ = {isa = PBXBuildFile; fileRef = E140DD3822046F9D00EA1271 /* Staff.swift */; };
+		E140DD3D220473CA00EA1271 /* StaffViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E140DD3C220473CA00EA1271 /* StaffViewController.swift */; };
+		E176C44122084C6C00989BA9 /* DataStoreType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E176C44022084C6C00989BA9 /* DataStoreType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE476E964B0CD4341CCA79CC /* Pods-StaffManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StaffManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-StaffManager/Pods-StaffManager.release.xcconfig"; sourceTree = "<group>"; };
+		B436CA64F3117A9C23565682 /* Pods_StaffManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StaffManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B80657D0B2015E35BD0888F9 /* Pods-StaffManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StaffManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StaffManager/Pods-StaffManager.debug.xcconfig"; sourceTree = "<group>"; };
+		E12A39062208A403009EA81B /* TableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewModel.swift; sourceTree = "<group>"; };
 		E140DD1822046D5C00EA1271 /* StaffManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StaffManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E140DD1B22046D5C00EA1271 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E140DD1D22046D5C00EA1271 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E140DD2022046D5C00EA1271 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E140DD2222046D5E00EA1271 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E140DD2522046D5E00EA1271 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E140DD2722046D5E00EA1271 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E140DD3022046ECD00EA1271 /* EditStaffViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditStaffViewController.swift; sourceTree = "<group>"; };
+		E140DD3222046F1200EA1271 /* EditStaffViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditStaffViewModel.swift; sourceTree = "<group>"; };
+		E140DD3822046F9D00EA1271 /* Staff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Staff.swift; sourceTree = "<group>"; };
+		E140DD3C220473CA00EA1271 /* StaffViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffViewController.swift; sourceTree = "<group>"; };
+		E176C44022084C6C00989BA9 /* DataStoreType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStoreType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C5E81570F30B2E16319BA62 /* Pods_StaffManager.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0474D317019FC6E237E65541 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B436CA64F3117A9C23565682 /* Pods_StaffManager.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A80F84E8208B2078BB393042 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B80657D0B2015E35BD0888F9 /* Pods-StaffManager.debug.xcconfig */,
+				AE476E964B0CD4341CCA79CC /* Pods-StaffManager.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E140DD0F22046D5C00EA1271 = {
 			isa = PBXGroup;
 			children = (
 				E140DD1A22046D5C00EA1271 /* StaffManager */,
 				E140DD1922046D5C00EA1271 /* Products */,
+				A80F84E8208B2078BB393042 /* Pods */,
+				0474D317019FC6E237E65541 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +88,43 @@
 		E140DD1A22046D5C00EA1271 /* StaffManager */ = {
 			isa = PBXGroup;
 			children = (
+				E140DD2F22046E1A00EA1271 /* ViewControllers */,
+				E140DD2E22046E0C00EA1271 /* ViewModels */,
+				E140DD2D22046DFA00EA1271 /* Models */,
 				E140DD1B22046D5C00EA1271 /* AppDelegate.swift */,
-				E140DD1D22046D5C00EA1271 /* ViewController.swift */,
 				E140DD1F22046D5C00EA1271 /* Main.storyboard */,
 				E140DD2222046D5E00EA1271 /* Assets.xcassets */,
 				E140DD2422046D5E00EA1271 /* LaunchScreen.storyboard */,
 				E140DD2722046D5E00EA1271 /* Info.plist */,
 			);
 			path = StaffManager;
+			sourceTree = "<group>";
+		};
+		E140DD2D22046DFA00EA1271 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E140DD3822046F9D00EA1271 /* Staff.swift */,
+				E176C44022084C6C00989BA9 /* DataStoreType.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E140DD2E22046E0C00EA1271 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E140DD3222046F1200EA1271 /* EditStaffViewModel.swift */,
+				E12A39062208A403009EA81B /* TableViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E140DD2F22046E1A00EA1271 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E140DD3022046ECD00EA1271 /* EditStaffViewController.swift */,
+				E140DD3C220473CA00EA1271 /* StaffViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +134,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E140DD2A22046D5E00EA1271 /* Build configuration list for PBXNativeTarget "StaffManager" */;
 			buildPhases = (
+				8621560E2E40E69E050DE26F /* [CP] Check Pods Manifest.lock */,
 				E140DD1422046D5C00EA1271 /* Sources */,
 				E140DD1522046D5C00EA1271 /* Frameworks */,
 				E140DD1622046D5C00EA1271 /* Resources */,
+				D3B74B7694A405A3A06F285C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +195,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8621560E2E40E69E050DE26F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StaffManager-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3B74B7694A405A3A06F285C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-StaffManager/Pods-StaffManager-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveSwift/ReactiveSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StaffManager/Pods-StaffManager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E140DD1422046D5C00EA1271 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E140DD1E22046D5C00EA1271 /* ViewController.swift in Sources */,
+				E140DD3D220473CA00EA1271 /* StaffViewController.swift in Sources */,
+				E12A39072208A403009EA81B /* TableViewModel.swift in Sources */,
+				E176C44122084C6C00989BA9 /* DataStoreType.swift in Sources */,
+				E140DD3922046F9D00EA1271 /* Staff.swift in Sources */,
 				E140DD1C22046D5C00EA1271 /* AppDelegate.swift in Sources */,
+				E140DD3322046F1200EA1271 /* EditStaffViewModel.swift in Sources */,
+				E140DD3122046ECD00EA1271 /* EditStaffViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +405,7 @@
 		};
 		E140DD2B22046D5E00EA1271 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B80657D0B2015E35BD0888F9 /* Pods-StaffManager.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +424,7 @@
 		};
 		E140DD2C22046D5E00EA1271 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE476E964B0CD4341CCA79CC /* Pods-StaffManager.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
