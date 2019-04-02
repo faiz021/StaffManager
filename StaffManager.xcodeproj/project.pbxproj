@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2C5E81570F30B2E16319BA62 /* Pods_StaffManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B436CA64F3117A9C23565682 /* Pods_StaffManager.framework */; };
 		E12A39072208A403009EA81B /* TableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12A39062208A403009EA81B /* TableViewModel.swift */; };
+		E12A392C220AE340009EA81B /* StaffTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12A392B220AE340009EA81B /* StaffTableViewModel.swift */; };
 		E140DD1C22046D5C00EA1271 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E140DD1B22046D5C00EA1271 /* AppDelegate.swift */; };
 		E140DD2122046D5C00EA1271 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E140DD1F22046D5C00EA1271 /* Main.storyboard */; };
 		E140DD2322046D5E00EA1271 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E140DD2222046D5E00EA1271 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 		E140DD3922046F9D00EA1271 /* Staff.swift in Sources */ = {isa = PBXBuildFile; fileRef = E140DD3822046F9D00EA1271 /* Staff.swift */; };
 		E140DD3D220473CA00EA1271 /* StaffViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E140DD3C220473CA00EA1271 /* StaffViewController.swift */; };
 		E176C44122084C6C00989BA9 /* DataStoreType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E176C44022084C6C00989BA9 /* DataStoreType.swift */; };
+		E1EEE8A322525525004D32D2 /* StaffTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EEE8A222525525004D32D2 /* StaffTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,7 @@
 		B436CA64F3117A9C23565682 /* Pods_StaffManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StaffManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B80657D0B2015E35BD0888F9 /* Pods-StaffManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StaffManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StaffManager/Pods-StaffManager.debug.xcconfig"; sourceTree = "<group>"; };
 		E12A39062208A403009EA81B /* TableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewModel.swift; sourceTree = "<group>"; };
+		E12A392B220AE340009EA81B /* StaffTableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffTableViewModel.swift; sourceTree = "<group>"; };
 		E140DD1822046D5C00EA1271 /* StaffManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StaffManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E140DD1B22046D5C00EA1271 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E140DD2022046D5C00EA1271 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -36,6 +39,7 @@
 		E140DD3822046F9D00EA1271 /* Staff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Staff.swift; sourceTree = "<group>"; };
 		E140DD3C220473CA00EA1271 /* StaffViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffViewController.swift; sourceTree = "<group>"; };
 		E176C44022084C6C00989BA9 /* DataStoreType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStoreType.swift; sourceTree = "<group>"; };
+		E1EEE8A222525525004D32D2 /* StaffTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,7 @@
 		E140DD1A22046D5C00EA1271 /* StaffManager */ = {
 			isa = PBXGroup;
 			children = (
+				E1EEE8A1225254DD004D32D2 /* Custom Cells */,
 				E140DD2F22046E1A00EA1271 /* ViewControllers */,
 				E140DD2E22046E0C00EA1271 /* ViewModels */,
 				E140DD2D22046DFA00EA1271 /* Models */,
@@ -114,6 +119,7 @@
 			children = (
 				E140DD3222046F1200EA1271 /* EditStaffViewModel.swift */,
 				E12A39062208A403009EA81B /* TableViewModel.swift */,
+				E12A392B220AE340009EA81B /* StaffTableViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -125,6 +131,14 @@
 				E140DD3C220473CA00EA1271 /* StaffViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E1EEE8A1225254DD004D32D2 /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E1EEE8A222525525004D32D2 /* StaffTableViewCell.swift */,
+			);
+			path = "Custom Cells";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +273,8 @@
 				E12A39072208A403009EA81B /* TableViewModel.swift in Sources */,
 				E176C44122084C6C00989BA9 /* DataStoreType.swift in Sources */,
 				E140DD3922046F9D00EA1271 /* Staff.swift in Sources */,
+				E1EEE8A322525525004D32D2 /* StaffTableViewCell.swift in Sources */,
+				E12A392C220AE340009EA81B /* StaffTableViewModel.swift in Sources */,
 				E140DD1C22046D5C00EA1271 /* AppDelegate.swift in Sources */,
 				E140DD3322046F1200EA1271 /* EditStaffViewModel.swift in Sources */,
 				E140DD3122046ECD00EA1271 /* EditStaffViewController.swift in Sources */,
